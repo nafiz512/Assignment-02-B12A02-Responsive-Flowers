@@ -20,3 +20,12 @@ h3{
     font-family: "Noto Serif";
     font-weight: bold;
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
